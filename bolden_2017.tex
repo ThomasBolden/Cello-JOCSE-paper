@@ -1,0 +1,98 @@
+\documentclass[sigconf]{acmart}
+
+\usepackage{booktabs} % For formal tables
+\usepackage{lipsum}
+%\usepackage{graphicx}
+%\usepackage{pgfplots}
+%\usepackage{amsmath}
+
+
+
+% Copyright
+\setcopyright{acmcopyright}
+\copyrightyear{2017}
+
+% DOI
+\acmDOI{}
+
+
+
+
+\begin{document}
+
+% STUDENT PAPER:
+\title{Enzo - P / Cello Scaling and other things}
+%\titlenote{Produces the permission block, and
+%  copyright information}
+
+\subtitle{scaling, chemistry}
+%\subtitlenote{The full version of the author's guide is available as
+%  \texttt{acmart.pdf} document}
+
+\author{Thomas Bolden}
+%\authornote{author footnote}
+%\orcid{1234-5678-9012}
+\affiliation{
+  \institution{Lyman Briggs College}
+  \streetaddress{Michigan State University}
+  \city{East Lansing} 
+  \state{Michigan} 
+  \postcode{48824}
+}
+\email{boldenth@msu.edu}
+
+% The default list of authors is too long for headers}
+%\renewcommand{\shortauthors}{B. Trovato et al.}
+
+
+
+\begin{abstract}
+\lipsum[2]
+\footnote{This is an abstract footnote}
+\end{abstract}
+
+
+
+% Update if necessary!
+% Massively Parallel Algorithms - HIGH
+% Simulation Evaluation - HIGH
+% Designing Software - MED
+\begin{CCSXML}
+<ccs2012>
+<concept>
+<concept_id>10010147.10010169.10010170.10010174</concept_id>
+<concept_desc>Computing methodologies~Massively parallel algorithms</concept_desc>
+<concept_significance>500</concept_significance>
+</concept>
+<concept>
+<concept_id>10010147.10010341.10010370</concept_id>
+<concept_desc>Computing methodologies~Simulation evaluation</concept_desc>
+<concept_significance>500</concept_significance>
+</concept>
+<concept>
+<concept_id>10011007.10011074.10011075</concept_id>
+<concept_desc>Software and its engineering~Designing software</concept_desc>
+<concept_significance>300</concept_significance>
+</concept>
+</ccs2012>
+\end{CCSXML}
+
+\ccsdesc[500]{Computing methodologies~Massively parallel algorithms}
+\ccsdesc[500]{Computing methodologies~Simulation evaluation}
+\ccsdesc[300]{Software and its engineering~Designing software}
+
+% =============================================================================
+
+\keywords{awesomeness}
+
+\maketitle
+
+\input{bolden_2017_1}
+\input{bolden_2017_2}
+\input{bolden_2017_3}
+\input{bolden_2017_4}
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{sigproc} 
+
+\end{document}
